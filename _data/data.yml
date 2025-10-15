@@ -1,286 +1,105 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+basic_info:
+  name: Wai Man WONG
+  title: Product Lead (Web3 • Infra • PM → Founder)
+  email: gianwwm@gmail.com
+  location: Vancouver, BC, Canada
+  summary: >
+    Product leader shipping 0→1 infra and growth programs across MEV, staking,
+    stablecoin credit tooling, and transaction execution middleware. Focus on
+    GTM, pricing, and technical roadmaps that translate into usage and revenue.
 
-sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
-
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
-
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
-
-career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
-education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-experiences:
-  title: Experiences
-  info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+profiles:
+  - network: GitHub
+    username:
+    url:
+  - network: LinkedIn
+    username:
+    url:
 
 skills:
-  title: Skills &amp; Proficiency
+  - category: Product & Growth
+    tags: [Roadmapping, GTM, Pricing, OKRs, User Research, A/B Testing, Analytics]
+  - category: Data & Tooling
+    tags: [Tableau, Amplitude, Figma, Notion, Atlassian Suite, Scrum/Agile]
+  - category: Engineering/Infra (working proficiency)
+    tags: [Python, JavaScript, SQL, APIs, RPC, ZK Proofs, TEE blockbuilding, OFA, Account Abstraction]
+  - category: Blockchain Domains
+    tags: [MEV, Transaction Landing Infra, Staking/LST, Wallets, DA (FRI), Solana, Starknet]
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+languages:
+  - idiom: English
+    level: Professional
+  - idiom: Chinese (Cantonese)
+    level: Native
+  - idiom: Chinese (Mandarin)
+    level: Professional
 
-  - name: Javascript & jQuery
-    level: 98%
+experiences:
+  - role: Product Lead (1st PM for P2P Labs)
+    company: P2P.ORG
+    time: Jul 2024 – Present
+    details:
+      - Spearheaded credit infra SDK so wallets/DApps can accept stablecoin payments collateralized by yielding/idle assets; MVP tested with a >$300m TVL client on HyperEVM. 
+      - Drove Solana monetization strategy and secured exec buy-in; led 0→1 MEV Booster (relayer + tx-execution middleware), onboarding >10 clients (searchers, MMs, DEXs) in ~6 months and reaching ~$300k MRR. 
+      - Built white-label validator service enabling CEXs/institutions to launch branded Solana LST products; GTM delivered >6m SOL TVL. 
 
-  - name: Angular
-    level: 98%
+  - role: Product Manager
+    company: Nethermind
+    time: Feb 2024 – Jul 2024
+    details:
+      - Launched new RPC SaaS; defined onboarding, roadmap, and success metrics; landed 12 active users in first month(s). 
+      - Revamped Starknet “Voyager” dashboard IA + viz; boosted engagement by ~30% and session duration by ~25%. 
+      - Co-researched DA solution using FRI proofs; pitched and incubated internally. 
 
-  - name: HTML5 & CSS
-    level: 95%
+  - role: DeFi Product Manager
+    company: Binance.US
+    time: Nov 2022 – Jan 2024
+    details:
+      - Grew staking AUM ~150% via asset-prioritization and rebalance logic; improved redemption time & APR ~30%. 
+      - Built Web3 Wallet roadmap (HD/MPC, Wallet Mgmt, Earn, Swap, DApp marketplace) and GTM; ~5k users in pre-launch. 
+      - Designed ML withdrawal-pricing (Random Forests); +350% revenue, ~20% of company total; guarded KPIs with <1% impact via A/B tests. 
 
-  - name: Ruby on Rails
-    level: 85%
+  - role: DeFi/NFT Product Operations Associate
+    company: Crypto.com
+    time: Nov 2021 – Nov 2022
+    details:
+      - Iterated admin panel supporting 50+ events and x-functional ops (60 users); quarterly revenue scaled ~40× to >$10M in 3 quarters. 
+      - Proposed DMCA + zero-refund policy; cut refunds by ~95% (> $2M/month); integrated Hive API moderation. 
+      - Drove “Loaded Lion” venture project (10+ dev/design); >$46M traded volume via roadmap + community playbook. 
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - role: Co-founder
+    company: Metagenesis
+    time: Sep 2018 – Nov 2022
+    details:
+      - Built InvestMan community (20k+) across YouTube & socials; led team of 7; increased brand visibility & engagement. 
+      - Expanded services to creator-monetization; delivered >US$2M revenue across 20+ Asian creators via crypto/NFT launches. 
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+projects:
+  - title: Solana MEV Booster & Transaction Execution Middleware
+    link:
+    tagline: 0→1 product; relayer + middleware stack to improve validator/searcher revenue and TX landing reliability; >10 clients; ~$300k MRR.
+  - title: White-Label Solana LST (Validator-as-a-Service)
+    link:
+    tagline: Branded LST deployments for CEXs/institutions; >6m SOL TVL through GTM and partner plays.
+  - title: Credit-Infra SDK for Stablecoin Payments
+    link:
+    tagline: Collateralize yielding/idle assets to enable stablecoin checkouts; MVP validated with >$300m TVL client.
+  - title: RPC SaaS (Nethermind)
+    link:
+    tagline: New product launch with defined onboarding, metrics, and roadmap; 12 users in early phase.
+  - title: Voyager Dashboard Revamp (Starknet)
+    link:
+    tagline: IA + viz overhaul; ~30% engagement lift, ~25% session duration lift.
+  - title: ML Withdrawal Pricing (Binance.US)
+    link:
+    tagline: Random-Forests model; +350% revenue; ~20% company revenue while protecting guardrails via A/B testing.
+
+education:
+  - degree: B.SocSc in Economics
+    school: The Chinese University of Hong Kong
+    time: 2014 – 2018 
+
+interests:
+  - item: Solo-founding & one-person-company design
+  - item: Systems thinking & metrics architecture
+  - item: Crypto infra, staking, MEV research
