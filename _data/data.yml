@@ -8,25 +8,8 @@ sidebar:
   avatar:
 
   email: gianwwm@gmail.com
-  phone:
   timezone: America/Vancouver
-  citizenship:
-  website:
   linkedin: wai-man-wong
-  xing:
-  github: gwwm
-  telegram:
-  gitlab:
-  bitbucket:
-  bluesky:
-  twitter:
-  stack-overflow:
-  codewars:
-  goodreads:
-  mastodon:
-  hackerrank:
-  leetcode:
-  pdf:
 
   languages:
     title: Languages
@@ -41,20 +24,17 @@ sidebar:
   interests:
     title: Interests
     info:
-      - item: Solo-founding & one-person-company design
-        link:
       - item: Systems thinking & metrics architecture
         link:
-      - item: Crypto infra, staking, and MEV research
+      - item: Staking Stacks, MEV research, and Transaction Execution Quality
         link:
 
 career-profile:
   title: Career Profile
   summary: |
-    Product leader shipping 0→1 credit infrastructure, MEV monetization,
-    staking growth, and transaction execution middleware. Bridge GTM,
-    pricing, and technical strategy into usage and revenue across Solana,
-    Starknet, and multi-chain ecosystems.
+    Product Manager specializing in Earn Stacks—staking, validator infrastructure, and DeFi yield systems. 
+    Leads 0→1 development of MEV, LST, and credit-infra products bridging CeFi–DeFi ecosystems. 
+    Experienced across Binance, Crypto.com, Nethermind, and P2P.org, driving scalable on-chain liquidity and institutional staking adoption through deep technical fluency and market insight.
 
 education:
   title: Education
@@ -67,7 +47,7 @@ education:
 experiences:
   title: Experience
   info:
-    - role: Product Lead (1st PM for P2P Labs)
+    - role: Product Lead (1st PM at P2P Labs)
       time: Jul 2024 – Present
       company: P2P.ORG
       details: |
@@ -173,28 +153,16 @@ projects:
 skills:
   title: Skills & Proficiency
   toolset:
-    - name: Product & Growth — Agile, roadmapping, GTM strategy, pricing, OKRs, user research, A/B testing, analytics
+    - name: Product Leadership — 0→1 strategy & GTM
       level: 95%
-    - name: Product Tooling — Atlassian Suite, Figma, Notion, Tableau, Amplitude
+    - name: Growth & Analytics — Experimentation & pricing
       level: 90%
-    - name: Technical Proficiency — Python, JavaScript, SQL, APIs
+    - name: Product Tooling — Atlassian, Figma, Notion, Tableau, Amplitude
       level: 85%
-    - name: Blockchain Expertise — MEV, OFA, ZK proofs, TEE blockbuilding, transaction landing infra, account abstraction, staking/LST, Solana, Starknet
+    - name: Technical — Python, JavaScript, SQL, APIs
+      level: 85%
+    - name: Blockchain — MEV, OFA, ZK, TEE, LST, Solana, Starknet
       level: 95%
-
-oss:
-  title:
-  intro:
-  contributions: []
-
-publications:
-  title:
-  intro:
-  papers: []
-
-recommendations:
-  title:
-  list: []
 
 footer: |
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
